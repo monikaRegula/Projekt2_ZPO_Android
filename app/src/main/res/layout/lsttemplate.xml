@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="5"
+    android:padding="5dp"
+    android:layout_marginTop="2dp"
+    >
+
+    <TextView
+        android:id="@+id/lblproid"
+        android:layout_width="19dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="1"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/lblproname"
+        android:layout_width="36dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:text="MOTOROLA"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/lblprodesc"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0"
+        android:text="Producent"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/lblproprice"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="cena"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+</LinearLayout>

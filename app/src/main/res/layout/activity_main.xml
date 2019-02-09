@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#282828"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SQL SHOP"
+            android:typeface="sans"
+            android:textSize="35sp"
+            android:textColor="#00aa55"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/edtuserid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#5d5d5d"
+            android:hint="Nazwa użytkownika"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="Hasło"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:textStyle="bold"
+            android:background="#5d5d5d"
+            android:padding="10dp"
+            android:inputType="textPassword"
+            android:layout_marginTop="5dp"
+            android:id="@+id/edtpass" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/btnlogin"
+            android:text="Zaloguj" />
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/pbbar" />
+    </LinearLayout>
+
+
+</RelativeLayout>
